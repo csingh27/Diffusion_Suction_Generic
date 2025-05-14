@@ -7,7 +7,7 @@
 
 
 
-## Getting Started
+## Getting Starteds
 
 ### 1. Preparation
 
