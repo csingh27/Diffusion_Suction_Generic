@@ -1,4 +1,13 @@
 ## Diffusion Suction Grasping with Large-Scale Parcel Dataset
+
+
+Illustration of the  suction-diffusion-denoising  process.
+![Alt text](/images/1.gif)
+
+
+
+
+
 This is the code of pytorch version for paper: [**Diffusion Suction Grasping with Large-Scale Parcel Dataset**]
 
 
@@ -24,7 +33,7 @@ Evaluation Parcel-Suction-Dataset dataset
 ### 1. Preparation
 Please clone the repository locally:
 ```
-git clone https://github.com/TAO-TAO-TAO-TAO-TAO/Diffusion-Suction.git
+git clone https://github.com/TAO-TAO-TAO-TAO-TAO/Diffusion_Suction.git
 ```
 Install the environment：
 
@@ -74,11 +83,11 @@ The python code of evaluation metric is available at [here](https://github.com/r
 ## Citation
 If you find our work useful in your research, please consider citing:
 
-    @article{din2024Diffusion-Suction,
-    title={Diffusion-Suction: Symmetric-Aware Keypoint Prediction and Domain Adaptation for 6D Pose Estimation In Bin-picking Scenarios},
-    author={Ding-Tao Huang, En-Te Lin, Lipeng Chen2, Li-Fu Liu1, Long Zeng},
-    journal={arXiv preprint arXiv:2403.09317},
-    year={2024}
+    @article{huang2025diffusion,
+    title={Diffusion Suction Grasping with Large-Scale Parcel Dataset},
+    author={Huang, Ding-Tao and He, Xinyi and Hua, Debei and Yu, Dongfang and Lin, En-Te and Zeng, Long},
+    journal={arXiv preprint arXiv:2502.07238},
+    year={2025}
     }
 
 
