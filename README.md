@@ -41,7 +41,7 @@ Install [Pytorch](https://pytorch.org/get-started/locally/). It is required that
 Our backbone PointNet++ is borrowed from [pointnet2](https://github.com/erikwijmans/Pointnet2_PyTorch).
 .Compile the CUDA layers for [PointNet++](http://arxiv.org/abs/1706.02413), which we used in the backbone network:
 
-    cd tools\Sparepart\train.py
+    cd train\Sparepart\train.py
     python train.py install
 
 
@@ -62,7 +62,7 @@ Install the following Python dependencies (with `pip install`):
     
 
 ### 2. Train Diffusion-Suction
-    cd tools\Sparepart\train.py
+    cd train\Sparepart\train.py
     python train.py 
 
 
