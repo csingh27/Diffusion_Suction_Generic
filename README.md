@@ -63,19 +63,20 @@ Install the following Python dependencies (with `pip install`):
 
 ### 2. Train Diffusion-Suction
     cd tools\Sparepart\train.py
-    python train.py install
+    python train.py 
 
 
 
 ### 3. Evaluation on the custom data
 
 Dataset
-Siléane dataset is available at [here](http://rbregier.github.io/dataset2017).
-Parametric dataset is available at [here](https://github.com/lvwj19/ParametricNet).
-Fraunhofer IPA Bin-Picking dataset is available at [here](https://owncloud.fraunhofer.de/index.php/s/AacICuOWQVWDDfP?path=%2F).
+We will open source Parcel-Suction-Dataset later.
+
+SuctionNet-1Billion is available at [here](https://github.com/graspnet/suctionnetAPI).
+
 
 Evaluation metric
-The python code of evaluation metric is available at [here](https://github.com/rbregier/pose_recovery_evaluation).
+The python code of evaluation metric is available at [here](https://github.com/graspnet/suctionnetAPI).
 
 
 
