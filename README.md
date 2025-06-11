@@ -69,8 +69,9 @@ Install the following Python dependencies (with `pip install`):
 
 ### 3. Evaluation on the custom data
 
-Dataset
-We will open source Parcel-Suction-Dataset later.
+
+Parcel-Suction-Dataset is available at [here](https://drive.google.com/drive/folders/1l4jz7LE7HXdn2evylodggReTTnip7J1Q?usp=sharing).
+
 
 SuctionNet-1Billion is available at [here](https://github.com/graspnet/suctionnetAPI).
 
