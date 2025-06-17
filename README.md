@@ -92,7 +92,7 @@ If you find our work useful in your research, please consider citing:
     year={2025}
     }
 
-    @inproceedings{huang2024sd,
+    @inproceedings{huang2025diffusion,
     title={Diffusion Suction Grasping with Large-Scale Parcel Dataset},
     author={dingtao huang, Debei Hua, Dongfang Yu, Xinyi He, Ente Lin, lianghong wang, Jinliang Hou, Long Zeng},
     booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
