@@ -62,8 +62,6 @@ RUN pip install \
     nibabel
 
 # Build CUDA extensions (skip failure if install is not implemented)
-WORKDIR /Diffusion_Suction/train/Sparepart
-RUN python train.py install || true
 
 # Set working directory to Diffusion_Suction
 WORKDIR /Diffusion_Suction
