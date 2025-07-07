@@ -65,4 +65,5 @@ RUN pip install \
 WORKDIR /Diffusion_Suction/train/Sparepart
 RUN python train.py install || true
 
-CMD ["python", "train.py"]
+# Set working directory to Diffusion_Suction
+WORKDIR /Diffusion_Suction
