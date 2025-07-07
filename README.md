@@ -58,8 +58,37 @@ Install the following Python dependencies (with `pip install`):
     h5py
     nibabel
 
+### 🐳 Docker Instructions
 
-    
+> **💡 Alternative Setup**: Use Docker to avoid manual environment configuration and get started quickly!
+
+#### 📦 Build the Docker Image
+
+From the root of this repository (where the `Dockerfile` is located), run:
+
+```bash
+sudo docker build -t diffusion-suction .
+```
+
+#### 🚀 Run the Docker Container
+
+To start an interactive session in the container:
+
+```bash
+sudo docker run -it --rm diffusion-suction /bin/bash
+```
+
+**What happens next:**
+- ✅ Container launches with all dependencies pre-installed
+- 📁 You'll start in the `/Diffusion_Suction` directory
+- 🎯 Ready to run training or evaluation as described below
+
+---
+
+**💡 Pro Tips:**
+- Use `Ctrl+D` or type `exit` to leave the container
+- The `--rm` flag automatically removes the container when you exit
+- All your work inside the container will be lost unless you mount a volume
 
 ### 2. Train Diffusion-Suction
     cd train\Sparepart\train.py
